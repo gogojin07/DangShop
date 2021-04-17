@@ -1,0 +1,143 @@
+@charset "UTF-8";
+h1 {
+	text-align: center;
+	color: blue;
+}
+html, body {
+	margin: 0 auto;	/* 중앙 정렬 */
+	height: 100%;
+}
+div {
+	border: 0px ;  
+	margin: 5px;
+}
+
+a:hover {background-color: rgb(238, 245, 253); } /* 메뉴에 커서 올리면 연하늘색으로 해당부분 연하늘색으로 변함 */
+a:link { color: black; text-decoration: none;} /* 글씨에 파란줄 없애줌 */
+
+#header {
+	width: 98%;
+	height: 124px;
+	overflow: hidden; /* 공식1 */
+	border: 0px;
+	margin: 0px;
+}
+#logo {
+	height: 114px;
+	float: left;	
+	overflow: hidden; /* 공식1 */
+	border: 0px;
+}
+#login {
+	width:600px;
+	height: 124px;
+	float: right;	
+	overflow: hidden; /* 공식1 */
+	border: 0px;
+}
+#tbl_login {
+	float: right;
+	padding: 5px;
+	border: 0px;
+}
+#middle {
+	width: 98%;
+	height: 70%;
+	overflow: hidden; /* 공식1 */
+	border: 0px;
+	display: flex; /* css3 */
+}
+#menu {
+	width: 16%;
+	height: 95%;
+	text-align: center;
+	background-color: #F8F9FA;
+	border: 0px;
+	padding:10px;
+}
+#main {
+	width: 82%;
+	height: 95%;
+	overflow: auto; /*상품이 많으면 스크롤 생성 */
+	background-color: #F8F9FA;
+	border: 0px;
+	padding:20px;
+}
+#footer {
+	width: 98%;
+	height: 10%;
+	text-align: center;
+	float: left;
+	overflow: hidden;
+	border: 0px;
+}
+#prodImg {
+	float:left;
+	padding:20px;
+	border:0px;
+}
+button {
+	cursor:pointer;
+}
+.productImg {
+	width: 220px;
+	height: 100px;
+	float: left;
+	padding: 5px;
+	border: 1px solid silver;
+	background-color: white;
+	/* 내용이 길어질 경우 가로길이에 맞춰서 생략(...) 표시 */
+		overflow: hidden;		
+		text-overflow: ellipsis;
+		white-space: nowrap;
+}
+.img_main {
+	width:100px;
+	height:90px;
+	float:left;
+	margin-right:7px;
+}
+#loginBtn, #joinBtn {
+   float:right; 
+   border:1px solid rgb(220,238,254);
+   background-color: rgb(220,238,254); 
+   color: rgb(4,81,148);
+   border-radius: 5px; 
+   margin-right:10px;
+}
+#loginBtn:hover, #joinBtn:hover{color:white; background-color: skyblue; }
+.btn_more {
+   border:1px solid rgb(220,238,254);
+   background-color: rgb(220,238,254); 
+   color: rgb(4,81,148);
+   border-radius: 5px; 
+   font-size: 12px;	
+   margin-top: 10px;
+}
+.btn_more:hover {color:white; background-color: skyblue; }
+#tbl_upFrm {
+	margin:20px;
+	padding:20px;
+	background-color:white;
+	border:10px solid #eeeeee;
+}
+#tbl_upFrm tr {
+	border:1px solid silver;
+}
+#tbl_upFrm td {
+	padding:10px;
+}
+.str_strong {
+	font-size:18px;
+	font-weight: bold;
+	color: rgb(4,81,148);
+}
+#str_welcome {
+	font-size:12px;
+	color: #32A1FF;
+}
+#tbl_detail {
+	border:1px solid silver;
+	width: 100%;
+	background-color: white;
+}
